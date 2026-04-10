@@ -44,7 +44,7 @@ def handle_message(message):
         return
     
     if text == '/start':
-        send_message(chat_id, "🛡️ SİNSGRAM Bot Aktif! /ban @kullanici - Banla /verify @kullanici - Mavi tik ver")
+        send_message(chat_id, "🛡️ SİNSGRAM Bot Aktif!\n/ban @kullanici - Banla\n/verify @kullanici - Mavi tik ver")
     
     elif text.startswith('/ban '):
         target = text.replace('/ban ', '').replace('@', '').strip()
